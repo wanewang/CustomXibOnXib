@@ -14,6 +14,15 @@
 		E331174D1B7B948400C3C721 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E331174C1B7B948400C3C721 /* Images.xcassets */; };
 		E33117501B7B948400C3C721 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E331174E1B7B948400C3C721 /* LaunchScreen.xib */; };
 		E331175C1B7B948400C3C721 /* CustomXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E331175B1B7B948400C3C721 /* CustomXibTests.m */; };
+		E33117671B7B94AA00C3C721 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33117661B7B94AA00C3C721 /* BaseView.m */; };
+		E331176B1B7B94EE00C3C721 /* InhertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E331176A1B7B94EE00C3C721 /* InhertView.m */; };
+		E331176D1B7B94FD00C3C721 /* InhertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E331176C1B7B94FD00C3C721 /* InhertView.xib */; };
+		E33117701B7B97FD00C3C721 /* CodeTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E331176F1B7B97FD00C3C721 /* CodeTestView.m */; };
+		E33117721B7B981400C3C721 /* CodeTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33117711B7B981400C3C721 /* CodeTestView.xib */; };
+		E33117751B7B98D500C3C721 /* CodeWorkView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33117741B7B98D500C3C721 /* CodeWorkView.m */; };
+		E33117771B7B991C00C3C721 /* CodeWorkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33117761B7B991C00C3C721 /* CodeWorkView.xib */; };
+		E33117791B7B9BEA00C3C721 /* ShowXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33117781B7B9BEA00C3C721 /* ShowXibView.xib */; };
+		E331177B1B7B9F7900C3C721 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E331177A1B7B9F7900C3C721 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,19 @@
 		E33117551B7B948400C3C721 /* CustomXibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomXibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E331175A1B7B948400C3C721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E331175B1B7B948400C3C721 /* CustomXibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomXibTests.m; sourceTree = "<group>"; };
+		E33117651B7B94AA00C3C721 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = View/BaseView.h; sourceTree = "<group>"; };
+		E33117661B7B94AA00C3C721 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = View/BaseView.m; sourceTree = "<group>"; };
+		E33117691B7B94EE00C3C721 /* InhertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InhertView.h; path = View/InhertView.h; sourceTree = "<group>"; };
+		E331176A1B7B94EE00C3C721 /* InhertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InhertView.m; path = View/InhertView.m; sourceTree = "<group>"; };
+		E331176C1B7B94FD00C3C721 /* InhertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InhertView.xib; path = View/InhertView.xib; sourceTree = "<group>"; };
+		E331176E1B7B97FD00C3C721 /* CodeTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeTestView.h; path = View/CodeTestView.h; sourceTree = "<group>"; };
+		E331176F1B7B97FD00C3C721 /* CodeTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeTestView.m; path = View/CodeTestView.m; sourceTree = "<group>"; };
+		E33117711B7B981400C3C721 /* CodeTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CodeTestView.xib; path = View/CodeTestView.xib; sourceTree = "<group>"; };
+		E33117731B7B98D500C3C721 /* CodeWorkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeWorkView.h; path = View/CodeWorkView.h; sourceTree = "<group>"; };
+		E33117741B7B98D500C3C721 /* CodeWorkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeWorkView.m; path = View/CodeWorkView.m; sourceTree = "<group>"; };
+		E33117761B7B991C00C3C721 /* CodeWorkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CodeWorkView.xib; path = View/CodeWorkView.xib; sourceTree = "<group>"; };
+		E33117781B7B9BEA00C3C721 /* ShowXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowXibView.xib; path = View/ShowXibView.xib; sourceTree = "<group>"; };
+		E331177A1B7B9F7900C3C721 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,7 @@
 		E33117331B7B948400C3C721 = {
 			isa = PBXGroup;
 			children = (
+				E331177A1B7B9F7900C3C721 /* README.md */,
 				E331173E1B7B948400C3C721 /* CustomXib */,
 				E33117581B7B948400C3C721 /* CustomXibTests */,
 				E331173D1B7B948400C3C721 /* Products */,
@@ -81,11 +104,13 @@
 		E331173E1B7B948400C3C721 /* CustomXib */ = {
 			isa = PBXGroup;
 			children = (
+				E33117681B7B94B100C3C721 /* View */,
 				E33117431B7B948400C3C721 /* AppDelegate.h */,
 				E33117441B7B948400C3C721 /* AppDelegate.m */,
 				E33117461B7B948400C3C721 /* ViewController.h */,
 				E33117471B7B948400C3C721 /* ViewController.m */,
 				E33117491B7B948400C3C721 /* Main.storyboard */,
+				E33117781B7B9BEA00C3C721 /* ShowXibView.xib */,
 				E331174C1B7B948400C3C721 /* Images.xcassets */,
 				E331174E1B7B948400C3C721 /* LaunchScreen.xib */,
 				E331173F1B7B948400C3C721 /* Supporting Files */,
@@ -117,6 +142,24 @@
 				E331175A1B7B948400C3C721 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E33117681B7B94B100C3C721 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E33117651B7B94AA00C3C721 /* BaseView.h */,
+				E33117661B7B94AA00C3C721 /* BaseView.m */,
+				E33117691B7B94EE00C3C721 /* InhertView.h */,
+				E331176A1B7B94EE00C3C721 /* InhertView.m */,
+				E331176C1B7B94FD00C3C721 /* InhertView.xib */,
+				E331176E1B7B97FD00C3C721 /* CodeTestView.h */,
+				E331176F1B7B97FD00C3C721 /* CodeTestView.m */,
+				E33117711B7B981400C3C721 /* CodeTestView.xib */,
+				E33117731B7B98D500C3C721 /* CodeWorkView.h */,
+				E33117741B7B98D500C3C721 /* CodeWorkView.m */,
+				E33117761B7B991C00C3C721 /* CodeWorkView.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +242,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E331176D1B7B94FD00C3C721 /* InhertView.xib in Resources */,
+				E33117721B7B981400C3C721 /* CodeTestView.xib in Resources */,
+				E33117771B7B991C00C3C721 /* CodeWorkView.xib in Resources */,
 				E331174B1B7B948400C3C721 /* Main.storyboard in Resources */,
 				E33117501B7B948400C3C721 /* LaunchScreen.xib in Resources */,
+				E33117791B7B9BEA00C3C721 /* ShowXibView.xib in Resources */,
 				E331174D1B7B948400C3C721 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33117751B7B98D500C3C721 /* CodeWorkView.m in Sources */,
 				E33117481B7B948400C3C721 /* ViewController.m in Sources */,
 				E33117451B7B948400C3C721 /* AppDelegate.m in Sources */,
+				E331176B1B7B94EE00C3C721 /* InhertView.m in Sources */,
 				E33117421B7B948400C3C721 /* main.m in Sources */,
+				E33117671B7B94AA00C3C721 /* BaseView.m in Sources */,
+				E331177B1B7B9F7900C3C721 /* README.md in Sources */,
+				E33117701B7B97FD00C3C721 /* CodeTestView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
