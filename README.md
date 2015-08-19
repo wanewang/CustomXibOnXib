@@ -20,7 +20,7 @@ The most important UIView base code is inside [`BaseView`](https://github.com/jh
 Because showing Xib on another Xib you have to implement `initWithFrame` with some view setup function. And be aware of the `TARGET_INTERFACE_BUILDER`, it's a must have bundle init type check method.
 
 ###screen shots
-![1](https://github.com/jhihguan/CustomXibOnXib/tree/master/Screen/screen1.png)
+![1](https://github.com/jhihguan/CustomXibOnXib/blob/master/Screen/screen1.png)
 
-![2](https://github.com/jhihguan/CustomXibOnXib/tree/master/Screen/screen2.png)
+![2](https://github.com/jhihguan/CustomXibOnXib/blob/master/Screen/screen2.png)
 
